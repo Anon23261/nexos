@@ -1,0 +1,12 @@
+[package]
+name = "nexos-bootloader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+x86_64 = "0.14.10"
+bootloader = "0.10.12"
+uart_16550 = "0.2.18"
+spin = "0.9.8"
+uefi = "0.19"
+uefi-services = "0.16"
